@@ -9,7 +9,7 @@ class User:
     def pay(self, usr, amnt):
         if self.bal >= amnt:
             self.bal -= amnt
-            usr.amnt += amnt
+            usr.bal += amnt
         else:
             print("You do not have sufficient funds...\n")
 

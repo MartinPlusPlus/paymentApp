@@ -13,6 +13,5 @@ class User:
         else:
             print("You do not have sufficient funds...\n")
 
-    # usr is a User object and amnt is an integer
-    def request(self, usr, amnt):
+    def add_funds(self, bank, amnt):
         pass
